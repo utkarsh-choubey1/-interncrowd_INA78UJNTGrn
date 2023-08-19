@@ -1,0 +1,85 @@
+/* Reset some default styles for consistency */
+body, h1, h2, p, ul, li, blockquote {
+    margin: 0;
+    padding: 0;
+}
+
+/* Basic styling */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+}
+
+.header {
+    background-color: #007BFF;
+    color: white;
+    text-align: center;
+    padding: 40px 0;
+}
+
+.headline {
+    font-size: 32px;
+    margin-bottom: 10px;
+}
+
+.subheadline {
+    font-size: 18px;
+}
+
+.main-content {
+    padding: 40px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.benefits, .testimonials {
+    flex: 1;
+    padding: 20px;
+    background-color: white;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.benefits h2, .testimonials h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.testimonials blockquote {
+    font-style: italic;
+    margin-top: 15px;
+}
+
+.cta {
+    background-color: #007BFF;
+    color: white;
+    text-align: center;
+    padding: 40px;
+}
+
+.cta h2 {
+    font-size: 28px;
+    margin-bottom: 10px;
+}
+
+.cta-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: white;
+    color: #007BFF;
+    text-decoration: none;
+    border-radius: 4px;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+}
+
+.cta-button:hover {
+    background-color: #0056b3;
+    color: white;
+}
+
+.footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
